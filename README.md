@@ -1,7 +1,7 @@
 # Classification of Handwritten Strokes using Graph Neural Networks
 
 ## Overview
-This repository provides a Graph Neural Network (GNN) implementation for the automated classification of handwritten strokes using the IAMonDo-db dataset. By representing digital ink documents as relational graphs—where nodes correspond to individual strokes and edges represent spatio-temporal relationships—the model effectively classifies elements into binary (Text vs. Non-Text) or multiple categories (Text, Table, Formula, Diagram, Other).
+This repository provides a Graph Neural Network (GNN) implementation for the automated classification of handwritten strokes using the IAMonDo-db dataset. By representing digital ink documents as relational graphs—where nodes correspond to individual strokes and edges represent spatio-temporal relationships—the model effectively classifies elements into binary (Text vs. Non-Text) or multiple categories (Text, Table, Formula, Diagram, Other). Related work: https://drive.google.com/file/d/1GD741e056nd2gdnhoJROHJi54ZJ7MIm5/view?usp=sharing.
 
 ## Model Architecture
 The core model is a modified Edge-Conditioned Graph Attention Network (EGAT) designed to handle deep architectures without over-smoothing.
